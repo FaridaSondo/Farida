@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "DSA COL"
+  title: "Data Colliquium"
   navbar:
     left:
       - href: index.qmd
