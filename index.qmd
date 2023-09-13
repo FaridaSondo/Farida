@@ -2,7 +2,7 @@
 title: "DSA COL"
 author: Farida Sondo
 ---
-
+Data Colliquium
 This is a Quarto website.
 
 This is a quarto website. Here's [another one](Link.qmd)
