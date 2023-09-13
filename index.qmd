@@ -1,0 +1,34 @@
+---
+title: "DSA COL"
+author: Farida Sondo
+---
+
+This is a Quarto website.
+
+This is a quarto website. Here's [another one](Link.qmd)
+
+[Visit bw.edu](https://www.bw.edu/)
+
+![Picture](IMG_2296.JPG)
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+4 + 5
+```
+
+```{r}
+#| code-fold: true
+#| message: false
+library(ggplot2)
+library(dplyr)
+```
+
+
+```{r}
+mtcars %>%
+   ggplot(aes(x = wt, y= mpg)) + 
+   geom_point()
+```
+
+This is a quarto website. Here's [another one](Link2.qmd)

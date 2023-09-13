@@ -1,0 +1,12 @@
+---
+title: "link2"
+author: "Farida Sondo"
+---
+```{r}
+library(ggplot2)
+library(dplyr)
+data(mtcars)
+average_mpg <- mean(mtcars$mpg)
+cat("Average MPG for all car models:", round(average_mpg, 2), "mpg\n")
+
+```

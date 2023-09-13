@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "DSA COL"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - href: https://www.bw.edu/
+        text: Bw Link
+
+format:
+  html:
+    theme: Flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+

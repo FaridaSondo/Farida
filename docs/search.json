@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DSA COL",
+    "section": "",
+    "text": "This is a Quarto website.\nThis is a quarto website. Here’s another one\nVisit bw.edu\n\n\n\nPicture\n\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n4 + 5\n\n[1] 9\n\n\n\n\nCode\nlibrary(ggplot2)\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nCode\nlibrary(dplyr)\n\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\n\nmtcars %>%\n   ggplot(aes(x = wt, y= mpg)) + \n   geom_point()\n\n\n\n\nThis is a quarto website. Here’s another one"
+  },
+  {
+    "objectID": "Link.html",
+    "href": "Link.html",
+    "title": "Link",
+    "section": "",
+    "text": "Test page\n\n3+7\n\n[1] 10"
+  },
+  {
+    "objectID": "link2.html",
+    "href": "link2.html",
+    "title": "link2",
+    "section": "",
+    "text": "library(ggplot2)\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\nlibrary(dplyr)\n\nWarning: package 'dplyr' was built under R version 4.2.3\n\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\ndata(mtcars)\naverage_mpg <- mean(mtcars$mpg)\ncat(\"Average MPG for all car models:\", round(average_mpg, 2), \"mpg\\n\")\n\nAverage MPG for all car models: 20.09 mpg"
+  }
+]
